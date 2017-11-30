@@ -50,4 +50,4 @@ RUN set -x \
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
-COPY /workspace/target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war ${CATALINA_HOME}/webapps/hello-world.war
+COPY target/spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war ${CATALINA_HOME}/webapps/hello-world.war
